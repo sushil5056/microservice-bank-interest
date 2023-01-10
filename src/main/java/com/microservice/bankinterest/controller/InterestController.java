@@ -19,8 +19,6 @@ public class InterestController {
 	
 	@GetMapping("/interest/{bankName}")
 	public InterestDetails getInterest(@PathVariable String bankName) {
-	
-		
 		
 		return interestService.getInterestDetails(bankName); 
 	}
